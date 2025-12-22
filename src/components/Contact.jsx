@@ -1,4 +1,8 @@
 import React from 'react'
+import { FaSquarePhone } from "react-icons/fa6";
+import { FaWhatsappSquare } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+
 
 const Contact = () => {
     return (
@@ -13,6 +17,24 @@ const Contact = () => {
                         Send Message
                     </button>
                 </form>
+
+                <div className='mt-10'>
+                    <div className='flex items-center'>
+                        <FaSquarePhone className='cursor-pointer'/>
+                        <p className='ml-5'>01734958226</p>
+                    </div>
+
+                    <div className='flex items-center'>
+                        <FaWhatsappSquare className='cursor-pointer'/>
+                        <p className='ml-5'>01734958226</p>
+                    </div>
+
+                    <div className='flex items-center'>
+                        <MdEmail className='cursor-pointer'/>
+                        <p className='ml-5'>shofiulislamsabbir@gmail.com</p>
+                    </div>
+
+                </div>
             </div>
         </section>
     )

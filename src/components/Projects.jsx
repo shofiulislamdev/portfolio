@@ -14,9 +14,9 @@ const Projects = () => {
         },
 
         {
-            title: "Postman",
+            title: "Petroil project",
             description:
-                "A realtime chat application using React, Firebase Authentication, Realtime Database and Tailwind CSS.",
+                "I built this project with React and Tailwind CSS, ensuring a responsive design that works smoothly on small devices.",
         },
     ];
 
