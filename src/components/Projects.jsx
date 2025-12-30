@@ -6,17 +6,20 @@ const Projects = () => {
             title: "Postman",
             description:
                 "A realtime chat application using React, Firebase Authentication, Realtime Database and Tailwind CSS.",
+            liveLink: "https://postman-beta.vercel.app/"
         },
         {
             title: "Number Guessing Game",
             description:
                 "First, Player One will enter his name, and then the game will start. After that, Player One will choose a number. Next, Player Two will enter his name and try to guess the number chosen by Player One. If Player Two guesses the correct number, Player Two will win. If the guess is incorrect, Player One will win. Player Two will have a total of five chances to guess Player One’s number.",
+            liveLink: "https://shofiulislamdev.github.io/JS_GAME/"
         },
 
         {
             title: "Petroil project",
             description:
                 "I built this project with React and Tailwind CSS, ensuring a responsive design that works smoothly on small devices.",
+            liveLink: "https://petroil-project-rgs8.vercel.app/"
         },
     ];
 
@@ -38,9 +41,18 @@ const Projects = () => {
                             {project.description}
                         </p>
 
-                        <a
+                        {/* <a
                             href="#"
                             className="text-teal-400 hover:underline text-sm"
+                        >
+                            View Details
+                        </a> */}
+
+                        <a
+                            href={project.liveLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-4 py-1 text-sm border border-teal-400 text-teal-400 rounded-lg hover:bg-teal-400 hover:text-black transition"
                         >
                             View Details
                         </a>

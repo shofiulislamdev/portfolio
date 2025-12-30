@@ -1,9 +1,11 @@
 import About from "./components/About"
 import Banner from "./components/Banner"
+import Certifications from "./components/Certifications"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
+import Research from "./components/Research"
 import Skill from "./components/Skill"
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
         <About></About>
         <Skill></Skill>
         <Projects></Projects>
+        <Research></Research>
+        <Certifications></Certifications>
         <Contact></Contact>
         <Footer></Footer>
 

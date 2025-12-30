@@ -3,6 +3,10 @@ import React from 'react'
 const Banner = () => {
     return (
         <section className="pt-32 pb-24 text-center bg-gradient-to-b from-gray-900 to-gray-950">
+            <div>
+                <h1 className='text-[48px] font-bold font-secondary'>Hello!</h1>
+                <p className='text-[48px] font-bold font-secondary'>I'm Md. Shofiul Islam</p>
+            </div>
             <h2 className="text-4xl font-extrabold mb-4">Computer Engineer & Web Developer</h2>
             <p className="max-w-xl mx-auto text-gray-400 mb-6">
                 Passionate about building modern web applications using React, Tailwind CSS, Firebase and MERN stack.
