@@ -30,6 +30,8 @@ import {
 } from "react-icons/fa";
 import { SiTailwindcss, SiMongodb, SiFirebase, SiExpress } from "react-icons/si";
 import { TbBrandCpp, TbBrandPython } from "react-icons/tb";
+import { HiOutlineDatabase } from "react-icons/hi";
+
 
 const skills = [
     { name: "Bootstrap", icon: <FaBootstrap className="text-purple-500 animate-bounce" /> },
@@ -44,6 +46,7 @@ const skills = [
     { name: "Figma", icon: <FaFigma className="text-pink-500 animate-pulse" /> },
     { name: "C++ OpenGL", icon: <TbBrandCpp className="text-blue-400 animate-ping" /> },
     { name: "Python (Basic)", icon: <TbBrandPython className="text-yellow-300 animate-pulse" /> },
+    { name: "MySQL", icon: <HiOutlineDatabase className="text-blue-400 animate-pulse" /> },
 ];
 
 const Skill = () => {

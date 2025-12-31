@@ -20,18 +20,18 @@ const Contact = () => {
 
                 <div className='mt-10'>
                     <div className='flex items-center'>
-                        <FaSquarePhone className='cursor-pointer'/>
-                        <p className='ml-5'>01734958226</p>
+                        <FaSquarePhone className='cursor-pointer text-cyan-400 size-5'/>
+                        <p className='ml-5 text-gray-400'>01734958226</p>
                     </div>
 
                     <div className='flex items-center'>
-                        <FaWhatsappSquare className='cursor-pointer'/>
-                        <p className='ml-5'>01734958226</p>
+                        <FaWhatsappSquare className='cursor-pointer text-cyan-400 size-5'/>
+                        <p className='ml-5 text-gray-400'>01734958226</p>
                     </div>
 
                     <div className='flex items-center'>
-                        <MdEmail className='cursor-pointer'/>
-                        <p className='ml-5'>shofiulislamsabbir@gmail.com</p>
+                        <MdEmail className='cursor-pointer text-cyan-400 size-5'/>
+                        <p className='ml-5 text-gray-400'>shofiulislamsabbir@gmail.com</p>
                     </div>
 
                 </div>
