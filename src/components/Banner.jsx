@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaGithub } from "react-icons/fa";
+
 
 const Banner = () => {
     return (
@@ -14,6 +16,16 @@ const Banner = () => {
             <a href="#projects" className="px-6 py-3 bg-teal-500 rounded-full text-gray-900 font-semibold hover:bg-teal-400">
                 View My Work
             </a>
+
+            <div className='flex justify-center mt-10'>
+                <div className='text-center'>
+                    <a href="https://github.com/shofiulislamdev" target='_blank'><FaGithub className='text-cyan-400 size-7' /></a>
+                </div>
+
+                {/* <div className='text-center'>
+                    <a href="https://github.com/shofiulislamdev" target='_blank'><FaGithub className='text-cyan-400 size-7' /></a>
+                </div> */}
+            </div>
         </section>
     )
 }

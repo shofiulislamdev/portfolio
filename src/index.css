@@ -20,5 +20,7 @@
 }
 
 .animate-gradient {
-  animation: gradientMove 5s ease infinite;
+  animation: gradientMove 3s ease infinite;
 }
+
+
