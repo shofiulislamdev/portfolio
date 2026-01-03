@@ -3,12 +3,13 @@ import pic from "../assets/shofiul.jpg"
 
 const About = () => {
     return (
-        <section id="about" className="px-8 py-20 max-w-5xl mx-auto">
-            <h3 className="text-3xl font-bold mb-6 text-teal-400">About Me</h3>
+        <div className='bg-gray-900'>
+            <section id="about" className="px-8 py-20 max-w-5xl mx-auto">
+                <h3 className="text-3xl font-bold mb-6 text-teal-400">About Me</h3>
 
-            <div className='flex justify-between items-center'>
-                <p className="text-gray-300 leading-relaxed w-[750px] text-justify">
-                    {/* I am a Computer Science & Engineering graduate with experience in MERN stack development,
+                <div className='flex justify-between items-center'>
+                    <p className="text-gray-300 leading-relaxed w-[750px] text-justify">
+                        {/* I am a Computer Science & Engineering graduate with experience in MERN stack development,
                     To establish myself as a MERN Stack Developer in local, international, and multinational organizations by
                     delivering value through scalable web applications, problem-solving, and innovative solutions. I aim to
                     become a Senior Full Stack Developer within the next 4-5 years. Motivated Computer Engineer with
@@ -16,24 +17,25 @@ const About = () => {
                     organizing technical and cultural events. Seeking an opportunity to contribute as a Web Developer while
                     pursuing research in computer science. */}
 
-                    👋 I'm Shofiul—fresh CSE graduated, night-owl coder, and the guy who built a tomato-sorting AI 🌱 and a real-time chat app 💬.
+                        👋 I'm Shofiul—fresh CSE graduated, night-owl coder, and the guy who built a tomato-sorting AI 🌱 and a real-time chat app 💬.
 
-                    I spend most days in the MERN world—MongoDB, Express, React, Node—writing code that is clear, test-friendly, and ready to scale. My GitHub shows 20+ commits a week; highlights include:• Chatting App (socket.io + JWT) 🔗• Password Generator ⚙️• Full-stack “Petroil” dashboard ⛽
+                        I spend most days in the MERN world—MongoDB, Express, React, Node—writing code that is clear, test-friendly, and ready to scale. My GitHub shows 20+ commits a week; highlights include:• Chatting App (socket.io + JWT) 🔗• Password Generator ⚙️• Full-stack “Petroil” dashboard ⛽
 
-                    Research also keeps me sharp. A Q2-journal paper on tomato maturity detection taught me the value of clean data ➜ better models ➜ happy users.
+                        Research also keeps me sharp. A Q2-journal paper on tomato maturity detection taught me the value of clean data ➜ better models ➜ happy users.
 
-                    What I bring to a team:💻 Strong JavaScript & React foundations🛠️ REST API design with Node/Express📊 MongoDB & MySQL for data you can trust🎨 A good eye for UI, thanks to Tailwind & Figma🤝 Soft skills—clear writing, calm under deadlines, and a knack for guiding juniors (ex-exec member, DIU Programming Club).
+                        What I bring to a team:💻 Strong JavaScript & React foundations🛠️ REST API design with Node/Express📊 MongoDB & MySQL for data you can trust🎨 A good eye for UI, thanks to Tailwind & Figma🤝 Soft skills—clear writing, calm under deadlines, and a knack for guiding juniors (ex-exec member, DIU Programming Club).
 
-                    Goal? In five years: senior full-stack engineer leading products that make life a bit easier. Until then, I'm learning every single day—currently deepening TypeScript & Docker.
+                        Goal? In five years: senior full-stack engineer leading products that make life a bit easier. Until then, I'm learning every single day—currently deepening TypeScript & Docker.
 
-                    Let's swap ideas or code reviews. Check my portfolio (link in bio) or ping me right here—always open to new projects and good coffee chats ☕.
-                </p>
+                        Let's swap ideas or code reviews. Check my portfolio (link in bio) or ping me right here—always open to new projects and good coffee chats ☕.
+                    </p>
 
-                <div>
-                    <img className='h-[200px] w-[150px] rounded-[50%] border-4' src={pic} alt="" />
+                    <div>
+                        <img className='h-[200px] w-[150px] rounded-[50%] border-4' src={pic} alt="" />
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     )
 }
 

@@ -2,6 +2,7 @@ import About from "./components/About"
 import Banner from "./components/Banner"
 import Certifications from "./components/Certifications"
 import Contact from "./components/Contact"
+import Education from "./components/Education"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
@@ -17,6 +18,7 @@ function App() {
         <Navbar></Navbar>
         <Banner></Banner>
         <About></About>
+        <Education></Education>
         <Skill></Skill>
         <Projects></Projects>
         <Research></Research>
