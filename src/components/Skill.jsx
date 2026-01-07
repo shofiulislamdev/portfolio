@@ -59,7 +59,7 @@ const Skill = () => {
                     {skills.map((skill) => (
                         <div
                             key={skill.name}
-                            className="bg-gray-800 p-5 rounded-xl text-center shadow hover:scale-105 transition flex flex-col items-center gap-3"
+                            className="bg-gray-800 p-5 rounded-xl text-center shadow-lg hover:shadow-teal-500/20 hover:scale-105 transition flex flex-col items-center gap-3"
                         >
                             <div className="text-3xl">{skill.icon}</div>
                             <span className="text-sm font-medium">{skill.name}</span>
