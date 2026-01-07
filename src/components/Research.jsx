@@ -1,23 +1,65 @@
 import React from 'react'
+import { AiOutlineFileText } from "react-icons/ai";
 
 const Research = () => {
     return (
-        <section id='research' className="bg-gray-900 py-20">
-            <div className="max-w-6xl mx-auto px-6">
-                <h2 className="text-3xl font-bold mb-6 text-teal-400">Research & Publication</h2>
-                <p className="text-gray-400">
-                    Q2 Journal Publication (Elsevier, Data in Brief): "An extensive real-world in-field tomato image dataset involving maturity classification and recognition of fresh and defect tomatoes."
-                </p>
 
-                <div className='mt-8'>
-                    <a href="https://www.sciencedirect.com/science/article/pii/S2352340923007679" target='_blank' className="px-4 py-1 text-sm border border-teal-400 text-teal-400 rounded-lg hover:bg-teal-400 hover:text-black transition">Click Here</a>
-                    {/* <a href="https://github.com/shofiulislamdev" target="_blank" className="px-6 py-3 border border-gray-600 rounded-xl hover:border-teal-400">
-                        GitHub
-                    </a> */}
+
+        <section id="research" className="px-8 py-20 bg-gray-900">
+            <div className="max-w-5xl mx-auto">
+
+                <h3 className="text-3xl font-bold mb-10 text-teal-400">
+                    Research & Publications
+                </h3>
+
+                <div className="bg-gray-800 hover:scale-105 p-6 rounded-2xl shadow-lg hover:shadow-teal-500/20 transition duration-300">
+
+                    <h4 className="text-xl font-semibold text-white leading-snug flex items-center gap-3">
+                        <AiOutlineFileText className='text-teal-400 animate-bounce size-6' />
+                        Q2 Journal Publication (Elsevier, Data in Brief)
+                    </h4>
+
+                    <p className="text-gray-300 mt-3">
+                        <span className="font-medium">Title:</span>{" "}
+                        <em>
+                            An extensive real-world in-field tomato image dataset involving
+                            maturity classification and recognition of fresh and defect
+                            tomatoes
+                        </em>
+                    </p>
+
+                    <p className="text-sm text-gray-400 mt-2">
+                        Journal: Data in Brief (Elsevier) · Quartile: Q2
+                    </p>
+
+                    <ul className="mt-4 list-disc list-inside text-gray-300 space-y-2">
+                        <li>
+                            Contributed to real-world image data collection and dataset preparation.
+                        </li>
+                        <li>
+                            Performed data preprocessing and annotation for maturity classification.
+                        </li>
+                        <li>
+                            Applied pre-trained deep learning models to evaluate classification accuracy.
+                        </li>
+                        <li>
+                            Published the dataset to support agricultural computer vision research.
+                        </li>
+                    </ul>
+
+                    <a
+                        href="https://www.sciencedirect.com/science/article/pii/S2352340923007679"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block mt-6 px-5 py-2 border border-teal-400
+                       text-teal-400 rounded-xl hover:bg-teal-400
+                       hover:text-black transition"
+                    >
+                        View Publication
+                    </a>
                 </div>
+
             </div>
-
-
         </section>
     )
 }

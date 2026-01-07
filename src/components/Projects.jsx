@@ -25,7 +25,7 @@ const Projects = () => {
             image: numbergame,
             title: "Number Guessing Game",
             description:
-                "First, Player One will enter his name, and then the game will start. After that, Player One will choose a number. Next, Player Two will enter his name and try to guess the number chosen by Player One. If Player Two guesses the correct number, Player Two will win. If the guess is incorrect, Player One will win. Player Two will have a total of five chances to guess Player One’s number.",
+                "Player One enters his name and selects a number. Player Two then enters his name and has five chances to guess the number. If Player Two guesses correctly, he wins; otherwise, Player One wins.",
             liveLink: "https://shofiulislamdev.github.io/JS_GAME/",
             code: "https://github.com/shofiulislamdev/JS_GAME",
             tech: ["html", "tailwind", "js"]
@@ -40,6 +40,7 @@ const Projects = () => {
             code: "https://github.com/shofiulislamdev/petroil-project",
             tech: ["react", "tailwind", "html"]
         },
+
     ];
 
     return (
@@ -50,7 +51,7 @@ const Projects = () => {
                 {projects.map((project, index) => (
                     <div
                         key={index}
-                        className="bg-gray-900 rounded-2xl hover:scale-105 shadow-lg p-6 hover:shadow-teal-500/20 transition"
+                        className="bg-gray-900 rounded-2xl hover:scale-105 shadow-lg p-6 hover:shadow-teal-500/20 transition duration-300"
                     >
                         <img
                             src={project.image}

@@ -48,7 +48,7 @@ const Certifications = () => {
                 {certifications.map((cert, index) => (
                     <div
                         key={index}
-                        className="bg-gray-900 rounded-2xl p-6 hover:scale-105 shadow-lg hover:shadow-teal-500/20 transition"
+                        className="bg-gray-900 rounded-2xl p-6 hover:scale-105 shadow-lg hover:shadow-teal-500/20 transition duration-300"
                     >
                         <div className="flex items-center gap-3 mb-4">
                             <Award className="text-teal-400" />

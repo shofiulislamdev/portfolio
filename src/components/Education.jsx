@@ -26,10 +26,10 @@ const Education = () => {
                 {educationData.map((edu, index) => (
                     <div
                         key={index}
-                        className="bg-gray-900 p-6 rounded-2xl hover:scale-105 shadow-lg hover:shadow-teal-500/20 transition"
+                        className="bg-gray-900 p-6 rounded-2xl hover:scale-105 shadow-lg hover:shadow-teal-500/20 transition duration-300"
                     >
                         <div className="flex items-center gap-3 mb-3">
-                            <FaGraduationCap className="text-teal-400 text-2xl" />
+                            <FaGraduationCap className="text-teal-400 text-2xl animate-bounce" />
                             <h4 className="text-xl font-semibold">{edu.degree}</h4>
                         </div>
 
