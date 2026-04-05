@@ -34,7 +34,7 @@ const Banner = () => {
                 </div>
 
                 <div>
-                    <a href="linkedin.com/in/md-shofiul-islam-55a4763a1" target='_blank' rel="noopener noreferrer"><FaLinkedin className='text-teal-400 size-7' /></a>
+                    <a href="www.linkedin.com/in/md-shofiul-islam-55a4763a1" target='_blank' rel="noopener noreferrer"><FaLinkedin className='text-teal-400 size-7' /></a>
                 </div>
 
                 <div>
